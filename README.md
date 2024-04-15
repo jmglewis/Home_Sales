@@ -9,11 +9,6 @@ Clone the new repository to your computer.
 
 Push your changes to GitHub.
 
-## Files
-Download the following files to help you get started:
-
-#Module 22 Challenge filesLinks to an external site.
-
 ## Instructions
 
 Rename the Home_Sales_starter_code.ipynb file as Home_Sales.ipynb.
