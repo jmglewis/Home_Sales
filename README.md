@@ -1,9 +1,14 @@
-# Module 22
+# SparkSQL Home Sales Analysis: Leveraging Spark for Key Metrics and Performance Optimization
 
-In this challenge, you'll use your knowledge of SparkSQL to determine key metrics about home sales data. Then you'll use Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
+ In this challenge, you'll find all the resources and instructions you need to analyze home sales data using SparkSQL. By leveraging the power of Apache Spark, we'll dive into the dataset to extract valuable insights and metrics about home sales.
+
+In this project, we'll cover various aspects of SparkSQL, including creating temporary views, partitioning data, caching and uncaching tables, and optimizing query performance. Through a series of guided tasks and questions, you'll apply your SparkSQL skills to address real-world scenarios in the realm of home sales analytics.
+
+Whether you're new to SparkSQL or looking to sharpen your skills, this project offers an opportunity to deepen your understanding of big data analytics and SQL-based data processing with Spark.
+
 
 ## Before You Begin
-Create a new repository for this project called, Home_Sales. Do not add this homework to an existing repository.
+Create a new repository for this project called, Home_Sales.
 
 Clone the new repository to your computer.
 
@@ -19,7 +24,7 @@ Read the home_sales_revised.csv data in the starter code into a Spark DataFrame.
 
 Create a temporary table called home_sales.
 
-Answer the following questions using SparkSQL:
+## Answer the following questions using SparkSQL:
 
 What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
 
@@ -47,24 +52,4 @@ Verify that the home_sales temporary table is uncached using PySpark.
 
 Download your Home_Sales.ipynb file and upload it into your "Home_Sales" GitHub repository.
 
-Support and Resources
-Your instructional team will provide support during classes and office hours. You will also have access to learning assistants and tutors to help you with topics as needed. Make sure to take advantage of these resources as you collaborate with your partner on this project.
 
-## Requirements
-A Spark DataFrame is created from the dataset. 
-
-A temporary table of the original DataFrame is created.
-
-A query is written that returns the average price, rounded to two decimal places, for a four-bedroom house that was sold in each year. 
-
-A query is written that returns the average price, rounded to two decimal places, of a home that has three bedrooms and three bathrooms for each year the home was built. 
-
-A query is written that returns the average price of a home with three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet for each year the home was built rounded to two decimal places. 
-
-A query is written that returns the average price of a home per "view" rating having an average home price greater than or equal to $350,000, rounded to two decimal places. (The output shows the run time for this query.) 
-
-A cache of the temporary "home_sales" table is created and validated. 
-
-The query from step 6 is run on the cached temporary table, and the run time is computed. 
-
-A partition of the home sales dataset by the "date_built" field is created, and the formatted parquet data is read.
